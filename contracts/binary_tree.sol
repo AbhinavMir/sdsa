@@ -30,6 +30,7 @@ library BinaryTree {
             while (i != 0) {
                 if (value < self.nodes[i].value) {
                     if (self.nodes[i].left == 0) {
+                        // TODO: this isn't correct, fix it
                         self.nodes[i].left = ++self.nodesCount;
                         self.nodes[self.nodesCount] = Node(value, 0, 0);
                         break;
