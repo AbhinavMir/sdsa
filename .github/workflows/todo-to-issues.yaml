@@ -1,0 +1,30 @@
+name: Create TODO Issues
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  create_issues:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Install Ag
+      run: sudo apt-get update && sudo apt-get -y install silversearcher-ag
+
+    - name: Create Issues
+      uses: JasonEtco/create-an-issue@v2
+      with:
+        filename: .github/TODO_ISSUE_TEMPLATE.md
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Close Stale Issues
+      uses: JasonEtco/close-stale-issues@v2
+      with:
+        days_before_stale: 7
+        days_before_close: 3
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
