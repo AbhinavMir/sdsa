@@ -4,18 +4,17 @@ This is a Solidity library framework that provides access to popular data struct
 ## Available Data Structures
 The following data structures are currently available in this framework:
 
-Linked List
-Stack
-Queue
-Binary Tree
-Binary Search Tree
-Heap
-Hashing
-Graph
-Matrix
-Available Search Algorithms
-
-### The following search algorithms are currently available in this framework:
+Linked List, 
+Stack, 
+Queue, 
+Binary Tree, 
+Binary Search Tree, 
+Heap, 
+Hashing, 
+Graph, 
+Matrix, 
+## Available Search Algorithms
+The following search algorithms are currently available in this framework:
 
 Linear Search
 Binary Search
