@@ -1,0 +1,19 @@
+{
+  "name": "sdsa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavmir/sdsa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abhinavmir/sdsa/issues"
+  },
+  "homepage": "https://github.com/abhinavmir/sdsa#readme",
+  "description": ""
+}
