@@ -16,9 +16,9 @@ Matrix,
 ## Available Search Algorithms
 The following search algorithms are currently available in this framework:
 
-Linear Search
-Binary Search
-Depth First Search
+Linear Search, 
+Binary Search, 
+Depth First Search, 
 Breadth First Search
 
 ## How to Use
