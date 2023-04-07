@@ -1,5 +1,5 @@
 {
-  "name": "sdsa",
+  "name": "@sdsa-lib/base",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,5 @@
     "url": "https://github.com/abhinavmir/sdsa/issues"
   },
   "homepage": "https://github.com/abhinavmir/sdsa#readme",
-  "description": ""
+  "description": "This is a Solidity library framework that provides access to popular data structures and search algorithms. This framework can be used to implement efficient and scalable data storage and search functionalities in your Solidity smart contracts."
 }
